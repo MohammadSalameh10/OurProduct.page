@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+}
+
+.page {
+    width: 100%;
+    height: 800px;
+}
+
+.title {
+    width: 70%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Products {
+ margin: auto;
+ width: 70%;
+ margin-top: 30px;
+}
+
+.Product {
+    width: 240px;
+    height: 305px;
+    border: solid 0.5px grey;
+    margin-left: 5px;
+    margin-top: 10px;
+    float: left;
+}
+
+img {
+    width: 220px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Product_name {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.Product_info {
+    margin-left: 10px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.price {
+    color: green;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.real_price {
+    text-decoration: line-through;
+    color: red;
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.cls {
+    clear: left;
+}
+
+.add_product {
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 180px;
+    height: 35px;
+    background-color: dodgerblue;
+    border: solid 1px rgb(28, 133, 237);
+    float: left;
+}
+
+.add_product i {
+    float: left;
+    color: white;
+    margin-left: 42px;
+}
+
+.add_product p {
+    float: left;
+    color: white;
+    margin-left: 5px;
+}
+
+.like_product {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 35px;
+    background-color: white;
+    border: solid 2px rgb(28, 133, 237);
+    float: left;
+}
+
+.like_product i {
+    color: dodgerblue;
+}
