@@ -15,7 +15,8 @@
 }
 
 .Products {
- margin: auto;
+    margin-left: auto;
+    margin-right: auto;
  width: 70%;
  margin-top: 30px;
 }
