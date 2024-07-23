@@ -18,7 +18,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .Product {
@@ -30,7 +30,7 @@
     float: left;
 }
 
-img {
+img{
     width: 220px;
     margin-left: 10px;
     margin-top: 10px;
