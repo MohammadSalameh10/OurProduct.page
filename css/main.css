@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100..800;1,100..800&display=swap');
 * {
     margin: 0;
 }
@@ -12,6 +14,7 @@
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Cairo;
 }
 
 .Products {
@@ -39,12 +42,14 @@ img{
 .Product_name {
     margin-left: 10px;
     margin-top: 5px;
+    font-family: Glory;
 }
 
 .Product_info {
     margin-left: 10px;
     margin-top: 5px;
     color: grey;
+    font-family: Glory;
 }
 
 .price {
@@ -52,14 +57,19 @@ img{
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    font-weight: bold;
+    font-family: Glory;
 }
 
 .real_price {
     text-decoration: line-through;
     color: red;
     float: left;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Glory;
 }
 
 .cls {
@@ -71,8 +81,8 @@ img{
     margin-top: 5px;
     width: 180px;
     height: 35px;
-    background-color: dodgerblue;
-    border: solid 1px rgb(28, 133, 237);
+    background-color: #007BFF;
+    border: solid 1px #007BFF;
     float: left;
 }
 
@@ -86,6 +96,7 @@ img{
     float: left;
     color: white;
     margin-left: 5px;
+    font-family: Glory;
 }
 
 .like_product {
@@ -94,7 +105,7 @@ img{
     width: 40px;
     height: 35px;
     background-color: white;
-    border: solid 2px rgb(28, 133, 237);
+    border: solid 2px #007BFF;
     float: left;
 }
 
